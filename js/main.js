@@ -1,3 +1,5 @@
+console.log(scriptData);
+
 window.spotlightSettings = {
   workspaceId: scriptData.workspaceId,
 };

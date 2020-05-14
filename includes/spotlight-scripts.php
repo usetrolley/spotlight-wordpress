@@ -13,10 +13,8 @@ function spotlight_add_scripts(){
       );
       wp_localize_script('spotlight-main-script', 'scriptData', $js_object);
 
-    wp_add_inline_script('spotlight_workspaceId', "window.spotlightSettings.workspaceId = $workspaceId;");
-   
     // Add Main JS
-    wp_add_inline_script('spotlight_workspaceId', 'window.spotlightSettings.workspaceId = 1;');
+    // wp_add_inline_script('spotlight_workspaceId', 'window.spotlightSettings.workspaceId = 1;');
 
 }
 
